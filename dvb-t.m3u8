@@ -1,0 +1,191 @@
+#EXTM3U
+
+#EXTINF:-1, [001] Rai 1
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
+
+#EXTINF:-1, [002] Rai 2
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=raiplayappletv
+
+#EXTINF:-1, [003] Rai 3
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709&output=7&forceUserAgent=raiplayappletv
+
+#EXTINF:-1, [004] Rete4
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://live03-col.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/manifest.mpd
+
+#EXTINF:-1, [005] Canale5
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://live03-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/manifest.mpd
+
+#EXTINF:-1, [006] Italia1
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest.mpd
+
+#EXTINF:-1, [007] LA7
+#EXTINF:-1, [008] TV8
+
+#EXTINF:-1, [009] NOVE
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://streaming.aurora.enhanced.live/live/mtc/v1/master/4594282f9c99190a14f881551cd1d8ffe4b4b70e/IT_WEB/index.m3u8?playerParams.channel=nove&playerParams.caid=nove&playerParams.slate=nove&playerParams.transcodeprofile=hls&manifest.mt=7714a87e43154eab82078e593a90ff3f&manifest.token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3ODA2NTEzNDEsIm5iZiI6MTc4MDY1MTM0MSwiZXhwIjoxNzgwNjUxNzAxLCJjb3VudHJ5Q29kZSI6Iml0IiwidWlwIjoiODEuNTYuMjE3LjExMCJ9.J3VFBI7Rucs0MSf3z0AZ7EtqznhkUGbbdGW-CKVieaI&playerParams.gdpr=
+
+#EXTINF:-1, [012] NOItv
+
+#EXTINF:-1, [020] 20Mediaset
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://live03-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/manifest.mpd
+
+#EXTINF:-1, [021] Rai 4
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=raiplayappletv
+
+#EXTINF:-1, [022] Iris
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://live03-col.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/manifest.mpd
+
+#EXTINF:-1, [023] Rai 5
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=raiplayappletv
+
+#EXTINF:-1, [024] Rai Movie
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=raiplayappletv
+
+#EXTINF:-1, [025] Rai Premium
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv
+
+#EXTINF:-1, [026] Cielo
+
+#EXTINF:-1, [027] 27Twentyseven
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://live03-col.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/manifest.mpd
+
+#EXTINF:-1, [028] TV2000
+#EXTINF:-1, [029] LA7CINEMA
+
+#EXTINF:-1, [030] La5
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://live03-col.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/manifest.mpd
+
+#EXTINF:-1, [031] Real Time
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://streaming.aurora.enhanced.live/live/mtc/v1/master/4594282f9c99190a14f881551cd1d8ffe4b4b70e/IT_WEB/index.m3u8?playerParams.channel=realtime&playerParams.caid=realtime&playerParams.slate=realtime&playerParams.transcodeprofile=hls&manifest.mt=7714a87e43154eab82078e593a90ff3f&manifest.token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3ODA2NTI0NDYsIm5iZiI6MTc4MDY1MjQ0NiwiZXhwIjoxNzgwNjUyODA2LCJjb3VudHJ5Q29kZSI6Iml0IiwidWlwIjoiODEuNTYuMjE3LjExMCJ9.6xjS4EbnWnA8DInLJbw6-iU0tXVhSEXVIaP2JzPdVH4
+
+#EXTINF:-1, [032] QVC
+
+#EXTINF:-1, [033] Food Network
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://streaming.aurora.enhanced.live/live/mtc/v1/master/4594282f9c99190a14f881551cd1d8ffe4b4b70e/IT_WEB/index.m3u8?playerParams.channel=foodnetwork&playerParams.caid=foodnetwork&playerParams.slate=foodnetwork&playerParams.transcodeprofile=hls&manifest.mt=7714a87e43154eab82078e593a90ff3f&manifest.token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3ODA2NTI5NTgsIm5iZiI6MTc4MDY1Mjk1OCwiZXhwIjoxNzgwNjUzMzE4LCJjb3VudHJ5Q29kZSI6Iml0IiwidWlwIjoiODEuNTYuMjE3LjExMCJ9.K0kUMJu8YywSwKo1KB1p-UUK4Cw2XfeqtbnS5Vbn2GU
+
+#EXTINF:-1, [034] Cine34
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://live03-col.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/manifest.mpd
+
+#EXTINF:-1, [035] Focus
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://live03-col.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/manifest.mpd
+
+#EXTINF:-1, [036] RTL 102.5
+
+#EXTINF:-1, [037] Discovery
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://streaming.aurora.enhanced.live/live/mtc/v1/master/4594282f9c99190a14f881551cd1d8ffe4b4b70e/IT_WEB/index.m3u8?playerParams.channel=discoverychannel&playerParams.caid=discoverychannel&playerParams.slate=discoverychannel&playerParams.transcodeprofile=hls&manifest.mt=7714a87e43154eab82078e593a90ff3f&manifest.token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3ODA2NTM1MjEsIm5iZiI6MTc4MDY1MzUyMSwiZXhwIjoxNzgwNjUzODgxLCJjb3VudHJ5Q29kZSI6Iml0IiwidWlwIjoiODEuNTYuMjE3LjExMCJ9.JvgImyvo4KI-WPWL8kgw8iPaP5N6uFi7ZwxBs2UtKzc
+
+#EXTINF:-1, [038] GIALLO
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://streaming.aurora.enhanced.live/live/mtc/v1/master/4594282f9c99190a14f881551cd1d8ffe4b4b70e/IT_WEB/index.m3u8?playerParams.channel=giallo&playerParams.caid=giallo&playerParams.slate=giallo&playerParams.transcodeprofile=hls&manifest.mt=7714a87e43154eab82078e593a90ff3f&manifest.token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3ODA2ODY2MjksIm5iZiI6MTc4MDY4NjYyOSwiZXhwIjoxNzgwNjg2OTg5LCJjb3VudHJ5Q29kZSI6Iml0IiwidWlwIjoiODEuNTYuMjE3LjExMCJ9.u36VC-qPw35DiAyjCzhxmGq774LvxM8bQhAFGDDrSak
+
+#EXTINF:-1, [039] TOPcrime
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://live03-col.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/manifest.mpd
+
+#EXTINF:-1, [040] Boing
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://live03-col.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/manifest.mpd
+
+#EXTINF:-1, [041] K2
+
+#EXTINF:-1, [042] Rai Gulp
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=raiplayappletv
+
+#EXTINF:-1, [043] Rai YoYo
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
+
+#EXTINF:-1, [044] frisbee
+#EXTINF:-1, [045] Boing Plus
+
+#EXTINF:-1, [046] Cartoonito
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://live03-col.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/manifest.mpd
+
+#EXTINF:-1, [047] Super!
+
+#EXTINF:-1, [048] Rai News 24
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=raiplayappletv
+
+#EXTINF:-1, [049] Mediaset Italia2
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://live03-col.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/manifest.mpd
+
+#EXTINF:-1, [050] Sky TG24
+
+#EXTINF:-1, [051] TGCOM24
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://live03-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/manifest.mpd
+
+#EXTINF:-1, [052] DMAX
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://streaming.aurora.enhanced.live/live/mtc/v1/master/4594282f9c99190a14f881551cd1d8ffe4b4b70e/IT_WEB/index.m3u8?playerParams.channel=dmax&playerParams.caid=dmax&playerParams.slate=dmax&playerParams.transcodeprofile=hls&manifest.mt=7714a87e43154eab82078e593a90ff3f&manifest.token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3ODA2ODg5NzgsIm5iZiI6MTc4MDY4ODk3OCwiZXhwIjoxNzgwNjg5MzM4LCJjb3VudHJ5Q29kZSI6Iml0IiwidWlwIjoiODEuNTYuMjE3LjExMCJ9.Wy0Ynw40Zww9mZRb2nXOtQYcaaon3A2Bu6LKZs96jK0
+
+#EXTINF:-1, [053] Italia 53
+
+#EXTINF:-1, [054] Rai Storia
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=raiplayappletv
+
+#EXTINF:-1, [055] Mediaset Extra
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://live03-col.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/manifest.mpd
+
+#EXTINF:-1, [056] HGTV – Home&Garden
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://streaming.aurora.enhanced.live/live/mtc/v1/master/4594282f9c99190a14f881551cd1d8ffe4b4b70e/IT_WEB/index.m3u8?playerParams.channel=hgtv&playerParams.caid=hgtv&playerParams.slate=hgtv&playerParams.transcodeprofile=hls&manifest.mt=7714a87e43154eab82078e593a90ff3f&manifest.token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3ODA2ODkzOTYsIm5iZiI6MTc4MDY4OTM5NiwiZXhwIjoxNzgwNjg5NzU2LCJjb3VudHJ5Q29kZSI6Iml0IiwidWlwIjoiODEuNTYuMjE3LjExMCJ9.QcmWsb57FCXFUHYuS2CBoiemvkztJB7PH6cMjkiaht0
+
+#EXTINF:-1, [057] Rai Scuola
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=7&forceUserAgent=raiplayappletv
+
+#EXTINF:-1, [058] Rai Sport
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=raiplayappletv
+
+#EXTINF:-1, [059] Discovery Turbo
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://streaming.aurora.enhanced.live/live/mtc/v1/master/4594282f9c99190a14f881551cd1d8ffe4b4b70e/IT_WEB/index.m3u8?playerParams.channel=turbo&playerParams.caid=turbo&playerParams.slate=turbo&playerParams.transcodeprofile=hls&manifest.mt=7714a87e43154eab82078e593a90ff3f&manifest.token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3ODA2OTAzMDEsIm5iZiI6MTc4MDY5MDMwMSwiZXhwIjoxNzgwNjkwNjYxLCJjb3VudHJ5Q29kZSI6Iml0IiwidWlwIjoiODEuNTYuMjE3LjExMCJ9.X73NaeDR3MNXijNw_pamOeazWybDpXD4XDGtEr7_aAw
+
+#EXTINF:-1, [060] SPORTITALIA
+#EXTINF:-1, [061] iL61
+#EXTINF:-1, [062] DONNA SPORT TV
+#EXTINF:-1, [063] CS24.LIVE
+
+#EXTINF:-1, [064] SUPERTENNIS
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
+
+#EXTINF:-1, [065] ALMA TV
+
+#EXTINF:-1, [066] RADIO 105
+#EXTVLCOPT:http-user-agent=HbbTV/2.0.4
+https://live03-col.msr.cdn.mediaset.net/live/ch-ec/ec-clr.isml/manifest.mpd
+
+#EXTINF:-1, [067] R101 TV
+#EXTINF:-1, [068] BOM CHANNEL
+#EXTINF:-1, [069] Deejay TV
+#EXTINF:-1, [070] RadioItaliaTV
+#EXTINF:-1, [073] RADIO BRUNO

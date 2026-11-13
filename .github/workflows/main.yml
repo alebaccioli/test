@@ -8,6 +8,9 @@ on:
   # Allows you to manually trigger the workflow from the Actions tab for testing
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   run-script:
     runs-on: ubuntu-latest
@@ -22,10 +25,18 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
-          python-version: '3.13' 
+          python-version: '3.13'
 
       - name: Cambia permessi
         run: chmod +x crea-playlist.py
 
       - name: Run Script
         run: python crea-playlist.py
+
+      - name: Commit e push del file generato
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add iptv-televisione.m3u8
+          git diff --cached --quiet || git commit -m "Aggiorna playlist"
+          git push

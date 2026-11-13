@@ -25,7 +25,7 @@ jobs:
           python-version: '3.13' 
 
       - name: Cambia permessi
-        run: chmd +x crea-playlist.py
+        run: chmod +x crea-playlist.py
 
       - name: Run Script
         run: python crea-playlist.py

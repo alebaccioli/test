@@ -11,6 +11,9 @@ on:
 jobs:
   run-script:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./iptv
 
     steps:
       - name: Checkout Code
@@ -21,5 +24,8 @@ jobs:
         with:
           python-version: '3.13' 
 
+      - name: Cambia permessi
+        run: chmd +x crea-playlist.py
+
       - name: Run Script
-        run: python iptv/crea-playlist.py
+        run: python crea-playlist.py

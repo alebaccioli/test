@@ -4,7 +4,7 @@ output = "#EXTM3U"
 
 try:
     with open("iptv/fonti/televisione.epg", "r") as fileEPG:
-        output += " x-tvg-url=\"" + fileEPG.read() + "\""
+        output += " x-tvg-url=\"" + fileEPG.read().strip('\n') + "\""
 except FileNotFoundError:
     pass
 

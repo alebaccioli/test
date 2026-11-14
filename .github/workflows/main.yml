@@ -3,40 +3,27 @@ name: Crea playlist
 on:
   push:
     paths:
-      - 'iptv/**.csv'
-
-  # Allows you to manually trigger the workflow from the Actions tab for testing
-  workflow_dispatch:
-
-permissions:
-  contents: write
+      - 'iptv/fonti/**'
+  workflow_dispatch: # Trigger manuale
 
 jobs:
-  run-script:
+  crea-playlist:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./iptv
-
+    permissions:
+      contents: write
     steps:
-      - name: Checkout Code
+      - name: Esegui checkout
         uses: actions/checkout@v7
-
-      - name: Set up Python
+      - name: Inizializza Python
         uses: actions/setup-python@v7
         with:
           python-version: '3.13'
-
-      - name: Cambia permessi
-        run: chmod +x crea-playlist.py
-
-      - name: Run Script
-        run: python crea-playlist.py
-
-      - name: Commit e push del file generato
+      - name: Esegui crea-playlist.py
+        run: python iptv/script/crea-playlist.py
+      - name: Commit e push dei file generati
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add iptv-televisione.m3u8
-          git diff --cached --quiet || git commit -m "Aggiorna playlist"
+          git add iptv/playlist
+          git diff --cached --quiet || git commit -m "[bot] Aggiornate playlist"
           git push
